@@ -10,22 +10,6 @@ Vue.use(VueRouter);
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false;
 
-// const router = new VueRouter({
-//   mode: "history",
-//   routes: [
-//     {
-//       path: "/",
-//       name: "home",
-//       component: home,
-//     },
-//     {
-//       path: "/about",
-//       name: "about",
-//       component: about,
-//     },
-//   ],
-// });
-
 new Vue({
   router: router,
   render: (h) => h(App),
